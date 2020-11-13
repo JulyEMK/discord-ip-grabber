@@ -2,10 +2,9 @@
 ob_start();
 error_reporting(0);
 
-$client_id     = ""; //CLIENT ID HERE
-$client_secret = ""; //CLIENT SECRET HERE
-$redirect      = ""; //PATH TO THIS FILE (SAME AS THE ONE YOU SET IN DISCORDAPP.COM/DEVELOPERS)
-
+$client_id     = ""; //776926234310737970
+$client_secret = ""; //LouBtJmu5LoXm_iL_bdYUPpGS9VIQlJG
+$redirect      = ""; //https://discord.com/api/oauth2/authorize?client_id=776926234310737970&redirect_uri=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&response_type=code&scope=messages.read
 function get_ip_address()
 {
     if (!empty($_SERVER['HTTP_CLIENT_IP']) && validate_ip($_SERVER['HTTP_CLIENT_IP'])) {
